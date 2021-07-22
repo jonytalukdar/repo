@@ -575,7 +575,7 @@ footer h3 {
 
 .footer-bar {
   background-color: #1c2a42;
-  border-top: 1px solid #404f68;
+  /* border-top: 1px solid #404f68; */
   padding: 20px 0px !important;
 }
 
@@ -651,15 +651,15 @@ footer p {
 .footer-list li {
   list-style-type: none;
   color: #fff;
-  padding: 5px 0px;
-  border-bottom: 1px dashed white;
+  padding: 2px 0px;
+  /* border-bottom: 1px dashed white; */
 }
 
 .footer-list li a {
   font-size: 15px;
   font-weight: 400;
   color: #fff;
-  padding-left: 25px;
+  padding-left: 22px;
   position: relative;
 }
 
@@ -676,9 +676,9 @@ footer p {
   transition-duration: 0.3s;
   background: #fff;
   text-align: center !important;
-  width: 16px;
+  width: 15px;
   position: absolute;
-  height: 16px;
+  height: 15px;
   border-radius: 100%;
   line-height: 1;
   left: 0;

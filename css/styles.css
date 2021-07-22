@@ -1229,7 +1229,7 @@ i) Animations
   color: #fff;
   text-decoration: none;
   position: fixed;
-  bottom: 80px;
+  bottom: 40px;
   right: 10px;
   display: none;
   border-radius: 50%;
@@ -2667,7 +2667,9 @@ footer {
 footer p {
   font-size: 14px;
   color: #999;
-  line-height: 1.7;
+  line-height: 20px;
+  margin: 10px 0;
+  text-align: center;
 }
 
 footer h3 {
@@ -2675,6 +2677,7 @@ footer h3 {
   font-weight: 400;
   color: #fff;
   line-height: 1;
+  /* text-align: center; */
 }
 
 footer h3:after {
@@ -2695,7 +2698,7 @@ footer h3:after {
 .footer-social-icons ul li {
   display: inline-block;
   background: #333;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   color: #fff;
   margin-right: 10px;
   margin-bottom: 5px;
@@ -2705,7 +2708,7 @@ footer h3:after {
 
 .footer-social-icons ul li a {
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   width: 35px;
   height: 35px;
@@ -2724,7 +2727,7 @@ footer h3:after {
 .footer-list li {
   list-style-type: none;
   color: #aaa;
-  padding: 6px 0px;
+  border-bottom: none;
 }
 
 .footer-list li a:before {
@@ -2795,7 +2798,7 @@ footer h3:after {
 }
 
 .footer-bar {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
   padding-top: 20px;
   margin-top: 30px;
 }
@@ -4063,8 +4066,8 @@ Style 5
 
 .team-member-text span {
   color: #fff;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -7185,7 +7188,7 @@ Styles 4
 .owl-nav i {
   color: #111;
   font-size: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .owl-nav .owl-prev {
@@ -7195,7 +7198,7 @@ Styles 4
   align-items: center;
   justify-content: center;
   left: 0%;
-  /* text-align: center; */
+  text-align: center;
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   width: 40px;
@@ -7212,8 +7215,8 @@ Styles 4
   text-align: center;
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: #fff !important;
   -webkit-box-shadow: 0px 5px 28px 0px rgba(50, 50, 50, 0.1);
   -moz-box-shadow: 0px 5px 28px 0px rgba(50, 50, 50, 0.1);
